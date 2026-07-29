@@ -6,21 +6,31 @@
     "email": "mrskwiw@gmail.com",
     "url": "https://github.com/mrskwiw"
   },
-  "description": "Agent tooling by mrskwiw / knot0 — web QA, web replication, novel writing, spec pressure-testing, and a persistent REPL scratchpad.",
+  "description": "Agent tooling by mrskwiw / knot0 \u2014 web QA, web replication, novel writing, spec pressure-testing, and a persistent REPL scratchpad.",
   "version": "0.1.0",
   "plugins": [
     {
       "name": "web-qa",
       "displayName": "web-qa",
-      "description": "AI-assisted web-application QA: enters a web app as a real user, drives a headless browser through end-to-end journeys, captures evidence (DOM, console, network, screenshot), applies deterministic gates, and judges whether the user's goal was actually achieved — catching bugs that pass every objective check but are still wrong.",
+      "description": "AI-assisted web-application QA: enters a web app as a real user, drives a headless browser through end-to-end journeys, captures evidence (DOM, console, network, screenshot), applies deterministic gates, and judges whether the user's goal was actually achieved \u2014 catching bugs that pass every objective check but are still wrong.",
       "source": {
         "source": "github",
         "repo": "mrskwiw/web-qa"
       },
-      "author": { "name": "mrskwiw", "email": "mrskwiw@gmail.com" },
+      "author": {
+        "name": "mrskwiw",
+        "email": "mrskwiw@gmail.com"
+      },
       "license": "MIT",
       "version": "2.3.0",
-      "keywords": ["qa", "testing", "playwright", "browser", "e2e", "web"],
+      "keywords": [
+        "qa",
+        "testing",
+        "playwright",
+        "browser",
+        "e2e",
+        "web"
+      ],
       "category": "testing"
     },
     {
@@ -31,55 +41,46 @@
         "source": "github",
         "repo": "mrskwiw/web-replicate"
       },
-      "author": { "name": "mrskwiw", "email": "mrskwiw@gmail.com" },
+      "author": {
+        "name": "mrskwiw",
+        "email": "mrskwiw@gmail.com"
+      },
       "license": "MIT",
       "version": "0.1.0",
-      "keywords": ["replication", "reverse-engineering", "blueprint", "playwright", "web", "documentation"],
+      "keywords": [
+        "replication",
+        "reverse-engineering",
+        "blueprint",
+        "playwright",
+        "web",
+        "documentation"
+      ],
       "category": "documentation"
     },
     {
       "name": "claude-novel-writer",
       "displayName": "Claude Novel Writer",
-      "description": "AI-assisted novel writing for Claude Code — structure, consistency tracking, context assembly, and prose analysis.",
+      "description": "AI-assisted novel writing for Claude Code \u2014 structure, consistency tracking, context assembly, and prose analysis.",
       "source": {
         "source": "git-subdir",
         "url": "mrskwiw/claude-novel-writer",
         "path": "project",
         "ref": "main"
       },
-      "author": { "name": "mrskwiw", "email": "mrskwiw@gmail.com" },
+      "author": {
+        "name": "mrskwiw",
+        "email": "mrskwiw@gmail.com"
+      },
       "license": "MIT",
       "version": "0.2.1",
-      "keywords": ["novel", "writing", "fiction", "storytelling", "manuscript"],
+      "keywords": [
+        "novel",
+        "writing",
+        "fiction",
+        "storytelling",
+        "manuscript"
+      ],
       "category": "writing"
-    },
-    {
-      "name": "vibe-testing",
-      "displayName": "Vibe Testing",
-      "description": "Pressure-test specs with LLM reasoning before writing code — validate spec documents by simulating real-world scenarios against them.",
-      "source": {
-        "source": "github",
-        "repo": "knot0-com/vibe-testing"
-      },
-      "author": { "name": "knot0-com" },
-      "license": "MIT",
-      "version": "1.0.0",
-      "keywords": ["testing", "specifications", "architecture", "validation", "planning"],
-      "category": "planning"
-    },
-    {
-      "name": "repl-scratchpad",
-      "displayName": "REPL Scratchpad",
-      "description": "Persistent Python REPL for coding agents — variables survive across turns and only print() output enters context.",
-      "source": {
-        "source": "github",
-        "repo": "knot0-com/repl-scratchpad"
-      },
-      "author": { "name": "knot0-com" },
-      "license": "MIT",
-      "version": "1.0.0",
-      "keywords": ["repl", "scratchpad", "context-efficiency", "agent-memory", "data-processing"],
-      "category": "productivity"
     }
   ]
 }
