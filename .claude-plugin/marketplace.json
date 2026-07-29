@@ -19,7 +19,7 @@
       },
       "author": { "name": "mrskwiw", "email": "mrskwiw@gmail.com" },
       "license": "MIT",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "keywords": ["qa", "testing", "playwright", "browser", "e2e", "web"],
       "category": "testing"
     },
