@@ -7,12 +7,12 @@
     "url": "https://github.com/mrskwiw"
   },
   "description": "Agent tooling by mrskwiw / knot0 \u2014 web QA, web replication, novel writing, spec pressure-testing, and a persistent REPL scratchpad.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "plugins": [
     {
       "name": "web-qa",
       "displayName": "web-qa",
-      "description": "AI-assisted web-application QA: enters a web app as a real user, drives a headless browser through end-to-end journeys, captures evidence (DOM, console, network, screenshot), applies deterministic gates, and judges whether the user's goal was actually achieved \u2014 catching bugs that pass every objective check but are still wrong.",
+      "description": "AI-assisted web-application QA: enters a web app as a real user, drives a headless browser through end-to-end journeys, captures evidence (DOM, console, network, screenshot), applies deterministic gates, and judges whether the user's goal was actually achieved \u2014 catching bugs that pass every objective check but are still wrong. Also audits accessibility (WCAG / screen-reader / keyboard) for assistive-tech users.",
       "source": {
         "source": "github",
         "repo": "mrskwiw/web-qa"
@@ -22,21 +22,23 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "2.3.0",
+      "version": "2.4.2",
       "keywords": [
         "qa",
         "testing",
         "playwright",
         "browser",
         "e2e",
-        "web"
+        "web",
+        "accessibility",
+        "a11y"
       ],
       "category": "testing"
     },
     {
       "name": "web-replicate",
       "displayName": "web-replicate",
-      "description": "Reconstruction-grade documentation of a web app so it can be REBUILT: drives every user journey in a headless browser, captures markup/assets/traffic, infers the backend contract (endpoints, shapes, auth), and writes a rebuild blueprint. Sibling of web-qa.",
+      "description": "Reconstruction-grade documentation of a web app so it can be REBUILT: drives every user journey in a headless browser, captures markup/assets/traffic and design tokens (palette, fonts, spacing), infers the backend contract (endpoints, shapes, auth), and writes a rebuild blueprint. Sibling of web-qa.",
       "source": {
         "source": "github",
         "repo": "mrskwiw/web-replicate"
@@ -46,14 +48,15 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "keywords": [
         "replication",
         "reverse-engineering",
         "blueprint",
         "playwright",
         "web",
-        "documentation"
+        "documentation",
+        "design-tokens"
       ],
       "category": "documentation"
     },
