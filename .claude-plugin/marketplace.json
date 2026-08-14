@@ -22,7 +22,7 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "2.4.2",
+      "version": "2.4.5",
       "keywords": [
         "qa",
         "testing",
@@ -48,7 +48,7 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "0.2.0",
+      "version": "0.3.2",
       "keywords": [
         "replication",
         "reverse-engineering",
