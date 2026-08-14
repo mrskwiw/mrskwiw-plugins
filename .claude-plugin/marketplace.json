@@ -61,6 +61,30 @@
       "category": "documentation"
     },
     {
+      "name": "web-drive",
+      "displayName": "web-drive",
+      "description": "Turns a live web app into a command-line tool an agent can operate: crawls the route graph, reconciles what each page claims against what navigation proves, verifies each candidate action by performing it, and generates a per-site CLI with named verbs, JSON output and real exit codes. Sibling of web-qa and web-replicate.",
+      "source": {
+        "source": "github",
+        "repo": "mrskwiw/web-drive"
+      },
+      "author": {
+        "name": "mrskwiw",
+        "email": "mrskwiw@gmail.com"
+      },
+      "license": "MIT",
+      "version": "0.1.0",
+      "keywords": [
+        "cli",
+        "automation",
+        "driver",
+        "playwright",
+        "web",
+        "agent-tooling"
+      ],
+      "category": "automation"
+    },
+    {
       "name": "claude-novel-writer",
       "displayName": "Claude Novel Writer",
       "description": "AI-assisted novel writing for Claude Code \u2014 structure, consistency tracking, context assembly, and prose analysis.",
