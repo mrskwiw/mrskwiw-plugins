@@ -6,13 +6,13 @@
     "email": "mrskwiw@gmail.com",
     "url": "https://github.com/mrskwiw"
   },
-  "description": "Agent tooling by mrskwiw / knot0 \u2014 web QA, web replication, novel writing, spec pressure-testing, and a persistent REPL scratchpad.",
+  "description": "Agent tooling by mrskwiw / knot0 — web QA, web replication, novel writing, spec pressure-testing, and a persistent REPL scratchpad.",
   "version": "0.2.0",
   "plugins": [
     {
       "name": "web-qa",
       "displayName": "web-qa",
-      "description": "AI-assisted web-application QA: enters a web app as a real user, drives a headless browser through end-to-end journeys, captures evidence (DOM, console, network, screenshot), applies deterministic gates, and judges whether the user's goal was actually achieved \u2014 catching bugs that pass every objective check but are still wrong. Also audits accessibility (WCAG / screen-reader / keyboard) for assistive-tech users.",
+      "description": "AI-assisted web-application QA: enters a web app as a real user, drives a headless browser through end-to-end journeys, captures evidence (DOM, console, network, screenshot), applies deterministic gates, and judges whether the user's goal was actually achieved — catching bugs that pass every objective check but are still wrong. Also audits accessibility (WCAG / screen-reader / keyboard) for assistive-tech users, and can record a human-driven session — logging every interaction, screen and API call, with credentials redacted in-page — to map surfaces behind logins, bot challenges or unrankable controls that automated crawling cannot reach.",
       "source": {
         "source": "github",
         "repo": "mrskwiw/web-qa"
@@ -22,7 +22,7 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "2.4.7",
+      "version": "2.5.0",
       "keywords": [
         "qa",
         "testing",
@@ -48,7 +48,7 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "keywords": [
         "replication",
         "reverse-engineering",
@@ -73,7 +73,7 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "keywords": [
         "cli",
         "automation",
@@ -87,7 +87,7 @@
     {
       "name": "claude-novel-writer",
       "displayName": "Claude Novel Writer",
-      "description": "AI-assisted novel writing for Claude Code \u2014 structure, consistency tracking, context assembly, and prose analysis.",
+      "description": "AI-assisted novel writing for Claude Code — structure, consistency tracking, context assembly, and prose analysis.",
       "source": {
         "source": "git-subdir",
         "url": "mrskwiw/claude-novel-writer",
