@@ -22,7 +22,7 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "2.7.0",
+      "version": "2.8.0",
       "keywords": [
         "qa",
         "testing",
@@ -73,7 +73,7 @@
         "email": "mrskwiw@gmail.com"
       },
       "license": "MIT",
-      "version": "0.21.0",
+      "version": "0.23.0",
       "keywords": [
         "cli",
         "automation",
